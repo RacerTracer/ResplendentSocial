@@ -13,8 +13,6 @@
 		43ADF50718F1CAFD005F707C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF50518F1CAFD005F707C /* InfoPlist.strings */; };
 		43ADF50918F1CAFD005F707C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF50818F1CAFD005F707C /* main.m */; };
 		43ADF50D18F1CAFD005F707C /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF50C18F1CAFD005F707C /* RSAppDelegate.m */; };
-		43ADF51018F1CAFD005F707C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF50E18F1CAFD005F707C /* Main_iPhone.storyboard */; };
-		43ADF51318F1CAFD005F707C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF51118F1CAFD005F707C /* Main_iPad.storyboard */; };
 		43ADF51618F1CAFD005F707C /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF51518F1CAFD005F707C /* RSViewController.m */; };
 		43ADF51818F1CAFD005F707C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF51718F1CAFD005F707C /* Images.xcassets */; };
 		43ADF51F18F1CAFE005F707C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF51E18F1CAFE005F707C /* XCTest.framework */; };
@@ -45,8 +43,6 @@
 		43ADF50A18F1CAFD005F707C /* ResplendentSocial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResplendentSocial-Prefix.pch"; sourceTree = "<group>"; };
 		43ADF50B18F1CAFD005F707C /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
 		43ADF50C18F1CAFD005F707C /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
-		43ADF50F18F1CAFD005F707C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		43ADF51218F1CAFD005F707C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		43ADF51418F1CAFD005F707C /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
 		43ADF51518F1CAFD005F707C /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
 		43ADF51718F1CAFD005F707C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -116,8 +112,6 @@
 			children = (
 				43ADF50B18F1CAFD005F707C /* RSAppDelegate.h */,
 				43ADF50C18F1CAFD005F707C /* RSAppDelegate.m */,
-				43ADF50E18F1CAFD005F707C /* Main_iPhone.storyboard */,
-				43ADF51118F1CAFD005F707C /* Main_iPad.storyboard */,
 				43ADF51418F1CAFD005F707C /* RSViewController.h */,
 				43ADF51518F1CAFD005F707C /* RSViewController.m */,
 				43ADF51718F1CAFD005F707C /* Images.xcassets */,
@@ -232,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43ADF51318F1CAFD005F707C /* Main_iPad.storyboard in Resources */,
 				43ADF51818F1CAFD005F707C /* Images.xcassets in Resources */,
-				43ADF51018F1CAFD005F707C /* Main_iPhone.storyboard in Resources */,
 				43ADF50718F1CAFD005F707C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,22 +277,6 @@
 				43ADF50618F1CAFD005F707C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		43ADF50E18F1CAFD005F707C /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43ADF50F18F1CAFD005F707C /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		43ADF51118F1CAFD005F707C /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43ADF51218F1CAFD005F707C /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		43ADF52718F1CAFE005F707C /* InfoPlist.strings */ = {
@@ -475,6 +451,7 @@
 				43ADF53018F1CAFE005F707C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43ADF53118F1CAFE005F707C /* Build configuration list for PBXNativeTarget "ResplendentSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +460,7 @@
 				43ADF53318F1CAFE005F707C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
