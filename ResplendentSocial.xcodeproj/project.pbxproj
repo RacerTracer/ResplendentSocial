@@ -20,6 +20,8 @@
 		43ADF52118F1CAFE005F707C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF50018F1CAFD005F707C /* UIKit.framework */; };
 		43ADF52918F1CAFE005F707C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF52718F1CAFE005F707C /* InfoPlist.strings */; };
 		43ADF52B18F1CAFE005F707C /* ResplendentSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF52A18F1CAFE005F707C /* ResplendentSocialTests.m */; };
+		43ADF53718F1CC1C005F707C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF53618F1CC1C005F707C /* Social.framework */; };
+		43ADF54318F1CCBE005F707C /* UIViewController+RSSLComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF54218F1CCBE005F707C /* UIViewController+RSSLComposeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		43ADF52618F1CAFE005F707C /* ResplendentSocialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResplendentSocialTests-Info.plist"; sourceTree = "<group>"; };
 		43ADF52818F1CAFE005F707C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43ADF52A18F1CAFE005F707C /* ResplendentSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResplendentSocialTests.m; sourceTree = "<group>"; };
+		43ADF53618F1CC1C005F707C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		43ADF54118F1CCBE005F707C /* UIViewController+RSSLComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RSSLComposeViewController.h"; sourceTree = "<group>"; };
+		43ADF54218F1CCBE005F707C /* UIViewController+RSSLComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RSSLComposeViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43ADF53718F1CC1C005F707C /* Social.framework in Frameworks */,
 				43ADF4FF18F1CAFD005F707C /* CoreGraphics.framework in Frameworks */,
 				43ADF50118F1CAFD005F707C /* UIKit.framework in Frameworks */,
 				43ADF4FD18F1CAFD005F707C /* Foundation.framework in Frameworks */,
@@ -99,6 +105,7 @@
 		43ADF4FB18F1CAFD005F707C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43ADF53618F1CC1C005F707C /* Social.framework */,
 				43ADF4FC18F1CAFD005F707C /* Foundation.framework */,
 				43ADF4FE18F1CAFD005F707C /* CoreGraphics.framework */,
 				43ADF50018F1CAFD005F707C /* UIKit.framework */,
@@ -110,6 +117,7 @@
 		43ADF50218F1CAFD005F707C /* ResplendentSocial */ = {
 			isa = PBXGroup;
 			children = (
+				43ADF53D18F1CCAA005F707C /* Code */,
 				43ADF50B18F1CAFD005F707C /* RSAppDelegate.h */,
 				43ADF50C18F1CAFD005F707C /* RSAppDelegate.m */,
 				43ADF51418F1CAFD005F707C /* RSViewController.h */,
@@ -147,6 +155,39 @@
 				43ADF52718F1CAFE005F707C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43ADF53D18F1CCAA005F707C /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF53E18F1CCAA005F707C /* ResplendentSocial */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		43ADF53E18F1CCAA005F707C /* ResplendentSocial */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF53F18F1CCAA005F707C /* Category */,
+			);
+			path = ResplendentSocial;
+			sourceTree = "<group>";
+		};
+		43ADF53F18F1CCAA005F707C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF54018F1CCAA005F707C /* UIViewController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		43ADF54018F1CCAA005F707C /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF54118F1CCBE005F707C /* UIViewController+RSSLComposeViewController.h */,
+				43ADF54218F1CCBE005F707C /* UIViewController+RSSLComposeViewController.m */,
+			);
+			path = UIViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43ADF54318F1CCBE005F707C /* UIViewController+RSSLComposeViewController.m in Sources */,
 				43ADF50918F1CAFD005F707C /* main.m in Sources */,
 				43ADF50D18F1CAFD005F707C /* RSAppDelegate.m in Sources */,
 				43ADF51618F1CAFD005F707C /* RSViewController.m in Sources */,
