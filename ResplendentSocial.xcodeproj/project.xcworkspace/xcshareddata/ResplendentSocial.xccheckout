@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>881BA46C-689B-44D7-AD63-5CF88015B4E6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ResplendentSocial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6978C093-3B6C-4BD9-89DD-46DB5CD0B84B</key>
+		<string>https://github.com/Resplendent/ResplendentSocial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ResplendentSocial/ResplendentSocial.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6978C093-3B6C-4BD9-89DD-46DB5CD0B84B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Resplendent/ResplendentSocial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6978C093-3B6C-4BD9-89DD-46DB5CD0B84B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6978C093-3B6C-4BD9-89DD-46DB5CD0B84B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ResplendentSocial</string>
+		</dict>
+	</array>
+</dict>
+</plist>

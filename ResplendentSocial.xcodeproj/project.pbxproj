@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43ADF4FD18F1CAFD005F707C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF4FC18F1CAFD005F707C /* Foundation.framework */; };
+		43ADF4FF18F1CAFD005F707C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF4FE18F1CAFD005F707C /* CoreGraphics.framework */; };
+		43ADF50118F1CAFD005F707C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF50018F1CAFD005F707C /* UIKit.framework */; };
+		43ADF50718F1CAFD005F707C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF50518F1CAFD005F707C /* InfoPlist.strings */; };
+		43ADF50918F1CAFD005F707C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF50818F1CAFD005F707C /* main.m */; };
+		43ADF50D18F1CAFD005F707C /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF50C18F1CAFD005F707C /* RSAppDelegate.m */; };
+		43ADF51018F1CAFD005F707C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF50E18F1CAFD005F707C /* Main_iPhone.storyboard */; };
+		43ADF51318F1CAFD005F707C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF51118F1CAFD005F707C /* Main_iPad.storyboard */; };
+		43ADF51618F1CAFD005F707C /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF51518F1CAFD005F707C /* RSViewController.m */; };
+		43ADF51818F1CAFD005F707C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF51718F1CAFD005F707C /* Images.xcassets */; };
+		43ADF51F18F1CAFE005F707C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF51E18F1CAFE005F707C /* XCTest.framework */; };
+		43ADF52018F1CAFE005F707C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF4FC18F1CAFD005F707C /* Foundation.framework */; };
+		43ADF52118F1CAFE005F707C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ADF50018F1CAFD005F707C /* UIKit.framework */; };
+		43ADF52918F1CAFE005F707C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43ADF52718F1CAFE005F707C /* InfoPlist.strings */; };
+		43ADF52B18F1CAFE005F707C /* ResplendentSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADF52A18F1CAFE005F707C /* ResplendentSocialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43ADF52218F1CAFE005F707C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43ADF4F118F1CAFD005F707C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43ADF4F818F1CAFD005F707C;
+			remoteInfo = ResplendentSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43ADF4F918F1CAFD005F707C /* ResplendentSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResplendentSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43ADF4FC18F1CAFD005F707C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43ADF4FE18F1CAFD005F707C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43ADF50018F1CAFD005F707C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43ADF50418F1CAFD005F707C /* ResplendentSocial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResplendentSocial-Info.plist"; sourceTree = "<group>"; };
+		43ADF50618F1CAFD005F707C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43ADF50818F1CAFD005F707C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43ADF50A18F1CAFD005F707C /* ResplendentSocial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResplendentSocial-Prefix.pch"; sourceTree = "<group>"; };
+		43ADF50B18F1CAFD005F707C /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		43ADF50C18F1CAFD005F707C /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		43ADF50F18F1CAFD005F707C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		43ADF51218F1CAFD005F707C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		43ADF51418F1CAFD005F707C /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		43ADF51518F1CAFD005F707C /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		43ADF51718F1CAFD005F707C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43ADF51D18F1CAFE005F707C /* ResplendentSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResplendentSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43ADF51E18F1CAFE005F707C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43ADF52618F1CAFE005F707C /* ResplendentSocialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResplendentSocialTests-Info.plist"; sourceTree = "<group>"; };
+		43ADF52818F1CAFE005F707C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43ADF52A18F1CAFE005F707C /* ResplendentSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResplendentSocialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43ADF4F618F1CAFD005F707C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ADF4FF18F1CAFD005F707C /* CoreGraphics.framework in Frameworks */,
+				43ADF50118F1CAFD005F707C /* UIKit.framework in Frameworks */,
+				43ADF4FD18F1CAFD005F707C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ADF51A18F1CAFE005F707C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ADF51F18F1CAFE005F707C /* XCTest.framework in Frameworks */,
+				43ADF52118F1CAFE005F707C /* UIKit.framework in Frameworks */,
+				43ADF52018F1CAFE005F707C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43ADF4F018F1CAFD005F707C = {
+			isa = PBXGroup;
+			children = (
+				43ADF50218F1CAFD005F707C /* ResplendentSocial */,
+				43ADF52418F1CAFE005F707C /* ResplendentSocialTests */,
+				43ADF4FB18F1CAFD005F707C /* Frameworks */,
+				43ADF4FA18F1CAFD005F707C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43ADF4FA18F1CAFD005F707C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF4F918F1CAFD005F707C /* ResplendentSocial.app */,
+				43ADF51D18F1CAFE005F707C /* ResplendentSocialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43ADF4FB18F1CAFD005F707C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF4FC18F1CAFD005F707C /* Foundation.framework */,
+				43ADF4FE18F1CAFD005F707C /* CoreGraphics.framework */,
+				43ADF50018F1CAFD005F707C /* UIKit.framework */,
+				43ADF51E18F1CAFE005F707C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43ADF50218F1CAFD005F707C /* ResplendentSocial */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF50B18F1CAFD005F707C /* RSAppDelegate.h */,
+				43ADF50C18F1CAFD005F707C /* RSAppDelegate.m */,
+				43ADF50E18F1CAFD005F707C /* Main_iPhone.storyboard */,
+				43ADF51118F1CAFD005F707C /* Main_iPad.storyboard */,
+				43ADF51418F1CAFD005F707C /* RSViewController.h */,
+				43ADF51518F1CAFD005F707C /* RSViewController.m */,
+				43ADF51718F1CAFD005F707C /* Images.xcassets */,
+				43ADF50318F1CAFD005F707C /* Supporting Files */,
+			);
+			path = ResplendentSocial;
+			sourceTree = "<group>";
+		};
+		43ADF50318F1CAFD005F707C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF50418F1CAFD005F707C /* ResplendentSocial-Info.plist */,
+				43ADF50518F1CAFD005F707C /* InfoPlist.strings */,
+				43ADF50818F1CAFD005F707C /* main.m */,
+				43ADF50A18F1CAFD005F707C /* ResplendentSocial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43ADF52418F1CAFE005F707C /* ResplendentSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF52A18F1CAFE005F707C /* ResplendentSocialTests.m */,
+				43ADF52518F1CAFE005F707C /* Supporting Files */,
+			);
+			path = ResplendentSocialTests;
+			sourceTree = "<group>";
+		};
+		43ADF52518F1CAFE005F707C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43ADF52618F1CAFE005F707C /* ResplendentSocialTests-Info.plist */,
+				43ADF52718F1CAFE005F707C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43ADF4F818F1CAFD005F707C /* ResplendentSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43ADF52E18F1CAFE005F707C /* Build configuration list for PBXNativeTarget "ResplendentSocial" */;
+			buildPhases = (
+				43ADF4F518F1CAFD005F707C /* Sources */,
+				43ADF4F618F1CAFD005F707C /* Frameworks */,
+				43ADF4F718F1CAFD005F707C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResplendentSocial;
+			productName = ResplendentSocial;
+			productReference = 43ADF4F918F1CAFD005F707C /* ResplendentSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43ADF51C18F1CAFE005F707C /* ResplendentSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43ADF53118F1CAFE005F707C /* Build configuration list for PBXNativeTarget "ResplendentSocialTests" */;
+			buildPhases = (
+				43ADF51918F1CAFE005F707C /* Sources */,
+				43ADF51A18F1CAFE005F707C /* Frameworks */,
+				43ADF51B18F1CAFE005F707C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43ADF52318F1CAFE005F707C /* PBXTargetDependency */,
+			);
+			name = ResplendentSocialTests;
+			productName = ResplendentSocialTests;
+			productReference = 43ADF51D18F1CAFE005F707C /* ResplendentSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43ADF4F118F1CAFD005F707C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Resplendent;
+				TargetAttributes = {
+					43ADF51C18F1CAFE005F707C = {
+						TestTargetID = 43ADF4F818F1CAFD005F707C;
+					};
+				};
+			};
+			buildConfigurationList = 43ADF4F418F1CAFD005F707C /* Build configuration list for PBXProject "ResplendentSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43ADF4F018F1CAFD005F707C;
+			productRefGroup = 43ADF4FA18F1CAFD005F707C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43ADF4F818F1CAFD005F707C /* ResplendentSocial */,
+				43ADF51C18F1CAFE005F707C /* ResplendentSocialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43ADF4F718F1CAFD005F707C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ADF51318F1CAFD005F707C /* Main_iPad.storyboard in Resources */,
+				43ADF51818F1CAFD005F707C /* Images.xcassets in Resources */,
+				43ADF51018F1CAFD005F707C /* Main_iPhone.storyboard in Resources */,
+				43ADF50718F1CAFD005F707C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ADF51B18F1CAFE005F707C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ADF52918F1CAFE005F707C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43ADF4F518F1CAFD005F707C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ADF50918F1CAFD005F707C /* main.m in Sources */,
+				43ADF50D18F1CAFD005F707C /* RSAppDelegate.m in Sources */,
+				43ADF51618F1CAFD005F707C /* RSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ADF51918F1CAFE005F707C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ADF52B18F1CAFE005F707C /* ResplendentSocialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43ADF52318F1CAFE005F707C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43ADF4F818F1CAFD005F707C /* ResplendentSocial */;
+			targetProxy = 43ADF52218F1CAFE005F707C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43ADF50518F1CAFD005F707C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ADF50618F1CAFD005F707C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43ADF50E18F1CAFD005F707C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ADF50F18F1CAFD005F707C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		43ADF51118F1CAFD005F707C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ADF51218F1CAFD005F707C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		43ADF52718F1CAFE005F707C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ADF52818F1CAFE005F707C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43ADF52C18F1CAFE005F707C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43ADF52D18F1CAFE005F707C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43ADF52F18F1CAFE005F707C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResplendentSocial/ResplendentSocial-Prefix.pch";
+				INFOPLIST_FILE = "ResplendentSocial/ResplendentSocial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43ADF53018F1CAFE005F707C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResplendentSocial/ResplendentSocial-Prefix.pch";
+				INFOPLIST_FILE = "ResplendentSocial/ResplendentSocial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43ADF53218F1CAFE005F707C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResplendentSocial.app/ResplendentSocial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResplendentSocial/ResplendentSocial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ResplendentSocialTests/ResplendentSocialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		43ADF53318F1CAFE005F707C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResplendentSocial.app/ResplendentSocial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResplendentSocial/ResplendentSocial-Prefix.pch";
+				INFOPLIST_FILE = "ResplendentSocialTests/ResplendentSocialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43ADF4F418F1CAFD005F707C /* Build configuration list for PBXProject "ResplendentSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ADF52C18F1CAFE005F707C /* Debug */,
+				43ADF52D18F1CAFE005F707C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43ADF52E18F1CAFE005F707C /* Build configuration list for PBXNativeTarget "ResplendentSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ADF52F18F1CAFE005F707C /* Debug */,
+				43ADF53018F1CAFE005F707C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43ADF53118F1CAFE005F707C /* Build configuration list for PBXNativeTarget "ResplendentSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ADF53218F1CAFE005F707C /* Debug */,
+				43ADF53318F1CAFE005F707C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43ADF4F118F1CAFD005F707C /* Project object */;
+}
