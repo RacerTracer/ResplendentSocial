@@ -16,7 +16,13 @@
 
 +(SLComposeViewController*)RSSLComposeViewControllerForServiceType:(NSString *)serviceType initialText:(NSString*)initialText urls:(NSArray*)urls images:(NSArray*)images
 {
-    if([SLComposeViewController isAvailableForServiceType:serviceType])
+	if ([self RSSLComposeViewControllerIsAvailable] == FALSE)
+	{
+		NSAssert(FALSE, @"Should check for RSSLComposeViewControllerIsAvailable before trying to use this method");
+		return nil;
+	}
+
+    if ([SLComposeViewController isAvailableForServiceType:serviceType])
     {
         SLComposeViewController* composeViewController = [SLComposeViewController composeViewControllerForServiceType:serviceType];
         
@@ -43,6 +49,17 @@
     {
         return nil;
     }
+}
+
++(BOOL)RSSLComposeViewControllerIsAvailable
+{
+	static BOOL SLComposeViewControllerIsAvailable;
+	static dispatch_once_t onceToken;
+	dispatch_once(&onceToken, ^{
+		SLComposeViewControllerIsAvailable = (NSClassFromString(@"SLComposeViewController") != nil);
+	});
+
+	return SLComposeViewControllerIsAvailable;
 }
 
 @end

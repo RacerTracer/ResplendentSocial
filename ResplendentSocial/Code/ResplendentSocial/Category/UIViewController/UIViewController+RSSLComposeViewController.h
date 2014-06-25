@@ -17,4 +17,6 @@
 
 +(SLComposeViewController*)RSSLComposeViewControllerForServiceType:(NSString *)serviceType initialText:(NSString*)initialText urls:(NSArray*)urls images:(NSArray*)images;
 
++(BOOL)RSSLComposeViewControllerIsAvailable;
+
 @end
