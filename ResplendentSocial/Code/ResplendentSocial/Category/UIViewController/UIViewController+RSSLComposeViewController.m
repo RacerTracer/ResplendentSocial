@@ -42,7 +42,7 @@
             [composeViewController dismissViewControllerAnimated:YES completion:nil];
         };
         
-        [composeViewController setCompletionHandler:(SLComposeViewControllerCompletionHandler)completionHandler];
+        [composeViewController setCompletionHandler:completionHandler];
         return composeViewController;
     }
     else
